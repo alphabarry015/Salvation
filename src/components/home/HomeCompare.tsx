@@ -18,31 +18,47 @@ export function HomeCompare({ themes }: { themes: TextEntry[] }) {
   const link = getTorahBibleLink(current);
 
   return (
-    <section className="mx-auto w-full max-w-6xl px-4 pb-20 sm:px-6">
-      <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <p className="text-xs font-medium tracking-[0.16em] text-flame uppercase">
-            Mise en regard
+    <section className="mx-auto w-full max-w-6xl px-5 pb-14 sm:px-8 sm:pb-20">
+      <div className="mb-5 flex flex-col gap-4 md:mb-6 md:flex-row md:items-end md:justify-between">
+        <div className="min-w-0">
+          <p className="text-[11px] font-medium tracking-[0.16em] text-flame uppercase sm:text-xs">
+            Accueillir ensemble
           </p>
-          <h2 className="mt-1 font-serif text-3xl text-ink">
+          <h2 className="mt-1 font-serif text-2xl text-ink sm:text-3xl">
             {current.theme}
           </h2>
           <p className="mt-1 text-sm text-muted">
-            {CATEGORY_LABELS[current.category]} · passages en français
+            {CATEGORY_LABELS[current.category]}, passages en français
           </p>
         </div>
         <Link
           href={`/comparer?theme=${current.id}`}
-          className="self-start rounded-control bg-flame px-4 py-2 text-sm font-medium text-white shadow-harvest-sm hover:bg-flame-hover"
+          className="inline-flex min-h-12 w-full items-center justify-center rounded-control bg-flame px-4 py-2.5 text-center text-sm font-medium text-white shadow-harvest-sm hover:bg-flame-hover md:w-auto md:self-start"
         >
-          Lire en regard
+          Lire ces passages ensemble
         </Link>
       </div>
+
+      <label className="sr-only" htmlFor="theme-select">
+        Choisir un sujet
+      </label>
+      <select
+        id="theme-select"
+        value={current.id}
+        onChange={(event) => setSelectedId(event.target.value)}
+        className="mb-6 min-h-12 w-full rounded-control border border-parchment bg-paper px-3 py-3 text-sm text-ink md:hidden"
+      >
+        {themes.map((theme) => (
+          <option key={theme.id} value={theme.id}>
+            {theme.theme}
+          </option>
+        ))}
+      </select>
 
       <div
         role="tablist"
         aria-label="Sujets"
-        className="mb-8 flex gap-2 overflow-x-auto pb-1"
+        className="mb-8 hidden flex-wrap gap-2 md:flex"
       >
         {themes.map((theme) => {
           const selected = theme.id === current.id;
@@ -54,7 +70,7 @@ export function HomeCompare({ themes }: { themes: TextEntry[] }) {
               role="tab"
               aria-selected={selected}
               onClick={() => setSelectedId(theme.id)}
-              className={`shrink-0 rounded-pill border px-4 py-1.5 text-sm transition-colors ${
+              className={`rounded-pill border px-3 py-1.5 text-sm transition-colors ${
                 selected
                   ? "border-flame bg-flame text-white"
                   : "border-parchment bg-cream text-ink hover:border-flame hover:text-flame"
@@ -72,27 +88,27 @@ export function HomeCompare({ themes }: { themes: TextEntry[] }) {
         </div>
       )}
 
-      <div className="grid gap-5 lg:grid-cols-3">
-        <div className="grid gap-5 lg:col-span-2 lg:grid-cols-2">
-          <HomePassage
-            source="torah"
-            reference={current.torah.reference}
-            text={current.torah.text}
-            edition={current.torah.version}
-            linked={link.kind === "same"}
-            linkLabel="Lié à la Bible"
-          />
-          <HomePassage
-            source="bible"
-            reference={current.bible.reference}
-            text={current.bible.text}
-            edition={current.bible.version}
-            linked={Boolean(link.kind)}
-            linkLabel={
-              link.kind === "same" ? "Lié à la Torah" : "Echo de la Torah"
-            }
-          />
-        </div>
+      <div className="grid gap-4 md:grid-cols-2 md:gap-5 xl:grid-cols-3">
+        <HomePassage
+          source="torah"
+          reference={current.torah.reference}
+          text={current.torah.text}
+          edition={current.torah.version}
+          linked={link.kind === "same"}
+          linkLabel="Même passage que dans la Bible"
+        />
+        <HomePassage
+          source="bible"
+          reference={current.bible.reference}
+          text={current.bible.text}
+          edition={current.bible.version}
+          linked={Boolean(link.kind)}
+          linkLabel={
+            link.kind === "same"
+              ? "Même passage que dans la Torah"
+              : "Un écho de la Torah"
+          }
+        />
         <HomePassage
           source="quran"
           reference={current.coran.reference}
@@ -121,7 +137,7 @@ function HomePassage({
 }) {
   return (
     <article
-      className={`rounded-card bg-paper p-6 shadow-harvest sm:p-8 ${
+      className={`rounded-card bg-paper p-5 shadow-harvest sm:p-6 lg:p-8 ${
         linked ? "ring-1 ring-mark/40" : ""
       }`}
     >
@@ -131,8 +147,8 @@ function HomePassage({
           <span className="text-[11px] text-mark">{linkLabel}</span>
         )}
       </div>
-      <h3 className="mt-3 font-serif text-xl text-ink">{reference}</h3>
-      <blockquote className="mt-5 font-serif text-[1.05rem] leading-[1.85] text-ink">
+      <h3 className="mt-3 font-serif text-lg text-ink sm:text-xl">{reference}</h3>
+      <blockquote className="mt-4 font-serif text-[0.98rem] leading-[1.75] text-ink sm:mt-5 sm:text-[1.05rem] sm:leading-[1.85]">
         «&nbsp;{text}&nbsp;»
       </blockquote>
       <p className="mt-6 text-xs text-muted">{edition}</p>

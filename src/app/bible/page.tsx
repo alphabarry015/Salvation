@@ -2,7 +2,7 @@ import { BibleReader } from "@/components/reader/BibleReader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bible — Salvation",
+  title: "Bible, Salvation",
   description:
     "Lire la Bible en français, livre par livre, dans le respect du texte.",
 };

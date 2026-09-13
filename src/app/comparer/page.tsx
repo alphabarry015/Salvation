@@ -3,7 +3,7 @@ import { getTexts, getTorahBibleLink } from "@/lib/texts";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rencontre — Salvation",
+  title: "Rencontre, Salvation",
   description:
     "Lire la Torah, la Bible et le Coran l’un à l’écoute de l’autre, chacun avec sa propre navigation.",
 };

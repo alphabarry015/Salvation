@@ -1,31 +1,17 @@
 # Salvation
 
-Plateforme d'étude comparative et neutre entre la Bible et le Coran, en français. Interface épurée, lecture croisée, sans parti pris doctrinal.
+Un lieu calme pour lire la Torah, la Bible et le Coran ensemble, en français. Chaque texte est accueilli dans le respect de sa voix.
 
 ## Stack
 
-- **Next.js** (App Router) — rendu et SEO
-- **React** + **TypeScript**
-- **Tailwind CSS** — thème clair / sombre, typographie académique
-- **JSON local** pour le MVP, adaptateurs prêts pour bible-api.com / Bolls Life et Al Quran Cloud
+- Next.js (App Router)
+- React et TypeScript
+- Tailwind CSS
+- Proxys `/api/bible` et `/api/quran` (cache 24 h)
 
-## Arborescence
+Pages : `/` accueil, `/torah`, `/bible`, `/coran`, `/comparer`.
 
-```
-src/
-  app/                  # Pages Next.js (SEO, métadonnées)
-  components/           # UI : navigation, sélecteur, split-screen
-  data/texts.json       # Corpus local + requêtes API
-  services/api.ts       # Clients Bible (helloao) et Coran (Al Quran Cloud)
-  app/api/bible|quran   # Proxys Next.js (cache, déploiement)
-  lib/texts.ts          # Recherche et filtres
-  types/scripture.ts    # Fiches, requêtes, états de lecture
-public/                 # Manifeste PWA, icône
-```
-
-Pages : `/` accueil, `/bible`, `/coran`, `/comparer`.
-
-## Démarrer
+## Démarrer en local
 
 ```bash
 npm install
@@ -34,9 +20,26 @@ npm run dev
 
 Ouvrir [http://localhost:3000](http://localhost:3000).
 
-## Sources des extraits
+Les variables de `.env.example` sont optionnelles. Les APIs publiques sont déjà renseignées par défaut.
 
-- Bible : Louis Segond, 1910 (domaine public)
-- Coran : traduction française de Muhammad Hamidullah (usage pédagogique)
+## Déploiement sur Vercel
 
-Les textes sont présentés sans commentaire. Consulter toujours le contexte intégral.
+Le projet est prêt pour Vercel (framework Next.js, région Paris `cdg1`, Node 20).
+
+1. Poussez `main` sur GitHub : [alphabarry015/Salvation](https://github.com/alphabarry015/Salvation).
+2. Sur [vercel.com/new](https://vercel.com/new), importez ce dépôt.
+3. Laissez les réglages par défaut : Framework `Next.js`, Build `next build`, Output détecté.
+4. Variables d’environnement, toutes optionnelles :
+   - `NEXT_PUBLIC_SITE_URL` : l’adresse définitive, par exemple `https://votre-projet.vercel.app`
+   - `BIBLE_API_BASE` : `https://bible.helloao.org`
+   - `QURAN_API_BASE` : `https://api.alquran.cloud`
+5. Déployez. Chaque push sur `main` republie le site.
+
+Aucune clé secrète n’est requise.
+
+## Sources
+
+- Bible : Louis Segond, 1910, via Free Use Bible API
+- Coran : texte arabe Uthmani et traduction Hamidullah, via Al Quran Cloud
+
+Les passages sont offerts sans commentaire. Chaque livre a son exégèse : une lecture seule ne donne pas le vrai sens.

@@ -25,6 +25,9 @@ interface VerseListProps {
   highlightEnd?: number;
   highlightLabel?: string;
   scrollTo?: number | null;
+  onOpenNav?: () => void;
+  navLabel?: string;
+  navUntil?: "md" | "lg";
 }
 
 function alignVerseInPane(
@@ -62,6 +65,9 @@ export function VerseList({
   highlightEnd,
   highlightLabel,
   scrollTo,
+  onOpenNav,
+  navLabel = "Sommaire",
+  navUntil = "md",
 }: VerseListProps) {
   const paneRef = useRef<HTMLDivElement>(null);
   const needle = normalizeSearch(search);
@@ -125,15 +131,28 @@ export function VerseList({
   return (
     <section className="flex min-h-0 flex-1 flex-col">
       <header
-        className={`flex shrink-0 flex-wrap items-start justify-between gap-3 border-b border-line ${
-          compact ? "min-h-[4.75rem] px-3 py-2.5" : "px-4 py-4 sm:px-6"
+        className={`flex shrink-0 flex-wrap items-start justify-between gap-2 border-b border-line sm:gap-3 ${
+          compact ? "px-2.5 py-2 sm:px-3 sm:py-2.5" : "px-4 py-4 sm:px-6"
         }`}
       >
-        <div>
-          <SourceBadge source={source} />
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-2">
+            <SourceBadge source={source} />
+            {onOpenNav && (
+              <button
+                type="button"
+                onClick={onOpenNav}
+                className={`rounded-pill border border-line px-2.5 py-1 text-[11px] text-ink ${
+                  navUntil === "lg" ? "lg:hidden" : "md:hidden"
+                }`}
+              >
+                {navLabel}
+              </button>
+            )}
+          </div>
           <h2
             className={`mt-2 font-serif text-ink ${
-              compact ? "text-lg" : "text-xl sm:text-2xl"
+              compact ? "text-base sm:text-lg" : "text-xl sm:text-2xl"
             }`}
           >
             {reference || "Choisir un passage"}
@@ -143,9 +162,12 @@ export function VerseList({
           )}
           {highlightStart != null && highlightEnd != null && (
             <p className="mt-1 text-xs text-mark">
-              {highlightLabel ? `${highlightLabel} · ` : ""}
-              passage mis en regard · versets {highlightStart}
-              {highlightEnd !== highlightStart ? `–${highlightEnd}` : ""}
+              <span className="hidden sm:inline">
+                {highlightLabel ? `${highlightLabel}, ` : ""}
+                passage proposé pour cette rencontre,{" "}
+              </span>
+              verset {highlightStart}
+              {highlightEnd !== highlightStart ? ` à ${highlightEnd}` : ""}
             </p>
           )}
         </div>
@@ -185,7 +207,7 @@ export function VerseList({
           <p className="text-sm text-muted">
             {needle
               ? "Aucun verset ne correspond à cette recherche."
-              : "Sélectionnez un livre et un chapitre, ou une sourate."}
+              : "Choisissez un livre et un chapitre, ou une sourate."}
           </p>
         )}
 

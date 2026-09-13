@@ -9,13 +9,13 @@ export const CATEGORY_FILTERS: { value: CategoryFilter; label: string }[] = [
   { value: "Tous", label: "Tous" },
   { value: "Prophètes", label: "Prophètes" },
   { value: "Dogme", label: "Thèmes théologiques" },
-  { value: "Morale", label: "Morale" },
+  { value: "Morale", label: "Vie morale" },
 ];
 
 export const CATEGORY_LABELS: Record<TextCategory, string> = {
   Prophètes: "Prophètes",
   Dogme: "Thèmes théologiques",
-  Morale: "Morale",
+  Morale: "Vie morale",
 };
 
 export function getTexts(): TextEntry[] {
@@ -53,7 +53,7 @@ export function getTorahBibleLink(entry: TextEntry): {
       kind: "echo",
       note:
         entry.kinship.note ??
-        "La Bible reprend ici un passage de la Torah.",
+        "La Bible accueille ici un passage de la Torah.",
     };
   }
 

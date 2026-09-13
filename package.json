@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "description": "Un lieu calme pour lire la Torah, la Bible et le Coran ensemble, en français.",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

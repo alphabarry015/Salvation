@@ -85,12 +85,29 @@
 
 html {
   scroll-behavior: smooth;
+  hyphens: none;
+  -webkit-hyphens: none;
 }
 
 body {
   background: var(--color-cream-canvas);
   color: var(--color-ink-black);
   font-family: var(--font-sans);
+  hyphens: none;
+  -webkit-hyphens: none;
+  overflow-wrap: break-word;
+}
+
+.scroll-fade {
+  mask-image: linear-gradient(90deg, #000 88%, transparent);
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 ::selection {

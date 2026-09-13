@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Newsreader, Noto_Naskh_Arabic, Source_Sans_3 } from "next/font/google";
 import { AppShell } from "@/components/layout/AppShell";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { getSiteUrl } from "@/lib/site-url";
 import "./globals.css";
 
 const ui = Source_Sans_3({
@@ -23,9 +24,10 @@ const arabic = Noto_Naskh_Arabic({
 });
 
 export const metadata: Metadata = {
-  title: "Salvation — Torah, Bible et Coran, l’un à l’écoute de l’autre",
+  metadataBase: getSiteUrl(),
+  title: "Salvation. Torah, Bible et Coran à l’écoute les uns des autres",
   description:
-    "Un lieu calme pour lire la Torah, la Bible et le Coran ensemble, en français. Chaque livre a son exégèse : lire seul ne suffit pas à en connaître le vrai sens.",
+    "Un lieu calme pour lire la Torah, la Bible et le Coran ensemble, en français. Chaque livre a son exégèse : une lecture seule ne suffit pas à en connaître le vrai sens.",
   applicationName: "Salvation",
   manifest: "/manifest.json",
   icons: {
@@ -41,6 +43,13 @@ export const metadata: Metadata = {
   ],
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#fff8f1",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -52,7 +61,7 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${ui.variable} ${scripture.variable} ${arabic.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-cream font-sans text-ink">
+      <body className="min-h-full overflow-x-hidden bg-cream font-sans text-ink">
         <ThemeProvider>
           <AppShell>{children}</AppShell>
         </ThemeProvider>

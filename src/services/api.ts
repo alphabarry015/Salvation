@@ -126,7 +126,7 @@ export async function fetchBibleFromProvider(
 
   if (selected.length === 0) {
     throw new ApiError(
-      `Aucun verset ${normalized.verseStart}–${normalized.verseEnd} dans ce chapitre (${verses.length} versets).`,
+      `Aucun verset ${normalized.verseStart} à ${normalized.verseEnd} dans ce chapitre (${verses.length} versets).`,
       404,
     );
   }
@@ -317,7 +317,7 @@ export async function fetchTorahChapter(book: string, chapter: number) {
     reference: torahBook
       ? passage.reference.replace(torahBook.latin, `${torahBook.hebrew} (${torahBook.latin})`)
       : passage.reference,
-    version: "Pentateuque · traduction française",
+    version: "Pentateuque, traduction française",
   };
 }
 

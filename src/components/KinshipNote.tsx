@@ -6,7 +6,7 @@ export function KinshipNote({
   note: string;
 }) {
   return (
-    <p className="inline-flex max-w-2xl items-center gap-2 rounded-pill bg-mark-soft px-3 py-1 text-left text-xs leading-snug text-mark">
+    <p className="inline-flex max-w-full items-start gap-2 rounded-2xl bg-mark-soft px-3 py-2 text-left text-xs leading-snug text-mark sm:max-w-2xl sm:items-center sm:rounded-pill sm:py-1.5">
       <span aria-hidden className="font-medium">
         {kind === "same" ? "↔" : "↻"}
       </span>

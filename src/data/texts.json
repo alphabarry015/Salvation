@@ -5,7 +5,7 @@
     "category": "Dogme",
     "torah": {
       "reference": "Bereshit (Genèse) 1, 1-5",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Au commencement, Dieu créa les cieux et la terre. La terre était informe et vide : il y avait des ténèbres à la surface de l'abîme, et l'esprit de Dieu se mouvait au-dessus des eaux. Dieu dit : Que la lumière soit ! Et la lumière fut. Dieu vit que la lumière était bonne ; et Dieu sépara la lumière d'avec les ténèbres. Dieu appela la lumière jour, et il appela les ténèbres nuit. Ainsi, il y eut un soir, et il y eut un matin : ce fut le premier jour.",
       "query": { "book": "GEN", "chapter": 1, "verseStart": 1, "verseEnd": 5 }
     },
@@ -28,7 +28,7 @@
     "category": "Prophètes",
     "torah": {
       "reference": "Bereshit (Genèse) 2, 7 et 15-17",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "L'Éternel Dieu forma l'homme de la poussière de la terre, il souffla dans ses narines un souffle de vie et l'homme devint un être vivant. L'Éternel Dieu prit l'homme et le plaça dans le jardin d'Éden pour le cultiver et pour le garder. L'Éternel Dieu donna cet ordre à l'homme : Tu pourras manger de tous les arbres du jardin ; mais tu ne mangeras pas de l'arbre de la connaissance du bien et du mal, car le jour où tu en mangeras, tu mourras.",
       "query": { "book": "GEN", "chapter": 2, "verseStart": 7, "verseEnd": 17 }
     },
@@ -47,11 +47,11 @@
   },
   {
     "id": "noe-nuh",
-    "theme": "Noé / Nuh",
+    "theme": "Noé et Nuh",
     "category": "Prophètes",
     "torah": {
       "reference": "Bereshit (Genèse) 6, 13-14 et 17-18",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Alors Dieu dit à Noé : La fin de toute chair est arrêtée par-devers moi ; car ils ont rempli la terre de violence ; voici, je vais les détruire avec la terre. Fais-toi une arche de bois de gopher ; tu disposeras cette arche en cellules, et tu l'enduiras de poix en dedans et en dehors. J'amène le déluge d'eaux sur la terre, pour détruire toute chair ayant souffle de vie sous le ciel ; tout ce qui est sur la terre périra. Mais j'établis mon alliance avec toi ; tu entreras dans l'arche, toi et tes fils, ta femme et les femmes de tes fils avec toi.",
       "query": { "book": "GEN", "chapter": 6, "verseStart": 13, "verseEnd": 18 }
     },
@@ -70,11 +70,11 @@
   },
   {
     "id": "abraham-ibrahim",
-    "theme": "Abraham / Ibrahim",
+    "theme": "Abraham et Ibrahim",
     "category": "Prophètes",
     "torah": {
       "reference": "Bereshit (Genèse) 12, 1-3",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "L'Éternel dit à Abram : Va-t-en de ton pays, de ta patrie, et de la maison de ton père, dans le pays que je te montrerai. Je ferai de toi une grande nation, et je te bénirai ; je rendrai ton nom grand, et tu seras une source de bénédiction. Je bénirai ceux qui te béniront, et je maudirai ceux qui te maudiront ; et toutes les familles de la terre seront bénies en toi.",
       "query": { "book": "GEN", "chapter": 12, "verseStart": 1, "verseEnd": 3 }
     },
@@ -93,11 +93,11 @@
   },
   {
     "id": "jesus-issa",
-    "theme": "Jésus / Issa",
+    "theme": "Jésus et Issa",
     "category": "Prophètes",
     "torah": {
       "reference": "Devarim (Deutéronome) 18, 15-18",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "L'Éternel, ton Dieu, te suscitera du milieu de toi, d'entre tes frères, un prophète comme moi : vous l'écouterez. C'est ce que tu as demandé à l'Éternel, ton Dieu, à Horeb, le jour de l'assemblée. L'Éternel me dit : Ils ont bien parlé. Je leur susciterai du milieu de leurs frères un prophète comme toi, je mettrai mes paroles dans sa bouche, et il leur dira tout ce que je lui commanderai.",
       "query": { "book": "DEU", "chapter": 18, "verseStart": 15, "verseEnd": 18 }
     },
@@ -120,7 +120,7 @@
     "category": "Dogme",
     "torah": {
       "reference": "Devarim (Deutéronome) 30, 15-19",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Vois, je mets aujourd'hui devant toi la vie et le bien, la mort et le mal. J'en prends aujourd'hui à témoin contre toi le ciel et la terre : j'ai mis devant toi la vie et la mort, la bénédiction et la malédiction. Choisis la vie, afin que tu vives, toi et ta postérité, pour aimer l'Éternel ton Dieu, pour obéir à sa voix et pour t'attacher à lui.",
       "query": { "book": "DEU", "chapter": 30, "verseStart": 15, "verseEnd": 19 }
     },
@@ -143,7 +143,7 @@
     "category": "Morale",
     "torah": {
       "reference": "Devarim (Deutéronome) 15, 7-8",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "S'il y a chez toi quelque indigent d'entre tes frères, dans l'une de tes portes, au pays que l'Éternel ton Dieu te donne, tu n'endurciras point ton cœur et tu ne fermeras point ta main devant ton frère indigent. Mais tu lui ouvriras ta main, et tu lui prêteras ce qu'il faut pour subvenir à ses besoins.",
       "query": { "book": "DEU", "chapter": 15, "verseStart": 7, "verseEnd": 8 }
     },
@@ -162,7 +162,7 @@
   },
   {
     "id": "mohammed",
-    "theme": "Mohammed",
+    "theme": "Muhammad",
     "category": "Prophètes",
     "kinship": {
       "torahBible": "same",
@@ -170,7 +170,7 @@
     },
     "torah": {
       "reference": "Devarim (Deutéronome) 18, 18",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Je leur susciterai du milieu de leurs frères un prophète comme toi, je mettrai mes paroles dans sa bouche, et il leur dira tout ce que je lui commanderai.",
       "query": { "book": "DEU", "chapter": 18, "verseStart": 18, "verseEnd": 18 }
     },
@@ -189,11 +189,11 @@
   },
   {
     "id": "moise-musa",
-    "theme": "Moïse / Musa",
+    "theme": "Moïse et Musa",
     "category": "Prophètes",
     "torah": {
       "reference": "Shemot (Exode) 3, 13-14",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Moïse dit à Dieu : Voici, j'irai vers les enfants d'Israël, et je leur dirai : Le Dieu de vos pères m'envoie vers vous. S'ils me demandent quel est son nom, que leur répondrai-je ? Dieu dit à Moïse : Je suis celui qui suis. Et il ajouta : C'est ainsi que tu répondras aux enfants d'Israël : Celui qui s'appelle Je suis m'a envoyé vers vous.",
       "query": { "book": "EXO", "chapter": 3, "verseStart": 13, "verseEnd": 14 }
     },
@@ -212,11 +212,11 @@
   },
   {
     "id": "joseph-yusuf",
-    "theme": "Joseph / Yusuf",
+    "theme": "Joseph et Yusuf",
     "category": "Prophètes",
     "torah": {
       "reference": "Bereshit (Genèse) 37, 5-8",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Joseph eut un songe, et il le raconta à ses frères, qui le haïrent encore davantage. Il leur dit : Écoutez donc ce songe que j'ai eu ! Nous étions à lier des gerbes au milieu des champs ; et voici, ma gerbe se leva et se tint debout, et vos gerbes l'entourèrent et se prosternèrent devant elle. Ses frères lui dirent : Est-ce que tu régneras sur nous ? Est-ce que tu nous gouverneras ?",
       "query": { "book": "GEN", "chapter": 37, "verseStart": 5, "verseEnd": 8 }
     },
@@ -239,11 +239,11 @@
     "category": "Dogme",
     "kinship": {
       "torahBible": "echo",
-      "note": "Dans l'Évangile, Jésus reprend le Shema de la Torah : « Écoute, Israël »."
+      "note": "Dans l'Évangile, Jésus accueille le Shema de la Torah : « Écoute, Israël »."
     },
     "torah": {
       "reference": "Devarim (Deutéronome) 6, 4-5",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Écoute, Israël ! L'Éternel, notre Dieu, est le seul Éternel. Tu aimeras l'Éternel, ton Dieu, de tout ton cœur, de toute ton âme et de toute ta force.",
       "query": { "book": "DEU", "chapter": 6, "verseStart": 4, "verseEnd": 5 }
     },
@@ -266,7 +266,7 @@
     "category": "Morale",
     "torah": {
       "reference": "Devarim (Deutéronome) 6, 6-7",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Et ces commandements, que je te donne aujourd'hui, seront dans ton cœur. Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison, quand tu iras en voyage, quand tu te coucheras et quand tu te lèveras.",
       "query": { "book": "DEU", "chapter": 6, "verseStart": 6, "verseEnd": 7 }
     },
@@ -289,7 +289,7 @@
     "category": "Morale",
     "torah": {
       "reference": "Vayikra (Lévitique) 16, 29",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "C'est ici pour vous une loi perpétuelle : au septième mois, le dixième jour du mois, vous humilierez vos âmes, vous ne ferez aucun ouvrage, ni l'indigène, ni l'étranger qui séjourne au milieu de vous.",
       "query": { "book": "LEV", "chapter": 16, "verseStart": 29, "verseEnd": 29 }
     },
@@ -312,7 +312,7 @@
     "category": "Morale",
     "torah": {
       "reference": "Shemot (Exode) 34, 6-7",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Et l'Éternel passa devant lui, et s'écria : L'Éternel, l'Éternel, Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité, qui conserve son amour jusqu'à mille générations, qui pardonne l'iniquité, la rébellion et le péché.",
       "query": { "book": "EXO", "chapter": 34, "verseStart": 6, "verseEnd": 7 }
     },
@@ -335,7 +335,7 @@
     "category": "Morale",
     "torah": {
       "reference": "Vayikra (Lévitique) 19, 33-34",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Si un étranger vient séjourner avec vous dans votre pays, vous ne l'opprimerez point. Vous traiterez l'étranger en séjour parmi vous comme un indigène du milieu de vous ; vous l'aimerez comme vous-mêmes, car vous avez été étrangers dans le pays d'Égypte. Je suis l'Éternel, votre Dieu.",
       "query": { "book": "LEV", "chapter": 19, "verseStart": 33, "verseEnd": 34 }
     },
@@ -358,7 +358,7 @@
     "category": "Prophètes",
     "torah": {
       "reference": "Bereshit (Genèse) 21, 17-18",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "Dieu entendit la voix de l'enfant ; et l'ange de Dieu appela du ciel Agar, et lui dit : Qu'as-tu, Agar ? Ne crains point, car Dieu a entendu la voix de l'enfant dans le lieu où il est. Lève-toi, prends l'enfant, saisis-le de ta main ; car je ferai de lui une grande nation.",
       "query": { "book": "GEN", "chapter": 21, "verseStart": 17, "verseEnd": 18 }
     },
@@ -381,7 +381,7 @@
     "category": "Prophètes",
     "torah": {
       "reference": "Bereshit (Genèse) 18, 10-14",
-      "version": "Pentateuque · traduction française",
+      "version": "Pentateuque, traduction française",
       "text": "L'Éternel dit : Je reviendrai vers toi à cette même époque ; et voici, Sara, ta femme, aura un fils. Sara écoutait à l'entrée de la tente, qui était derrière lui. Abraham et Sara étaient vieux, avancés en âge. Sara rit en elle-même, en disant : Maintenant que je suis vieille, aurais-je encore des désirs ? Y a-t-il rien qui soit étonnant de la part de l'Éternel ?",
       "query": { "book": "GEN", "chapter": 18, "verseStart": 10, "verseEnd": 14 }
     },

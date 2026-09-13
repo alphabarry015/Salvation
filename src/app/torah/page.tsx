@@ -2,7 +2,7 @@ import { TorahReader } from "@/components/reader/TorahReader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Torah — Salvation",
+  title: "Torah, Salvation",
   description:
     "Lire la Torah en français, livre par livre, dans le respect du texte.",
 };

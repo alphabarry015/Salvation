@@ -2,7 +2,7 @@ import { QuranReader } from "@/components/reader/QuranReader";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Coran — Salvation",
+  title: "Coran, Salvation",
   description:
     "Lire le Coran en arabe et en français, sourate par sourate, dans le respect du texte.",
 };

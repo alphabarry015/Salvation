@@ -111,14 +111,14 @@ export function CompareWorkspace({
 
   return (
     <div className="flex h-full min-h-0 flex-1 flex-col bg-cream">
-      <header className="relative shrink-0 border-b border-parchment bg-cream px-4 py-2.5 text-center sm:px-6">
+      <header className="relative shrink-0 border-b border-parchment bg-cream px-3 py-2 pr-12 text-center sm:px-6 sm:py-2.5 sm:pr-14">
         {themeActive && (
           <button
             type="button"
             onClick={quitTheme}
-            aria-label="Fermer ce thème"
-            title="Fermer ce thème"
-            className="absolute top-2 right-3 inline-flex size-8 items-center justify-center rounded-full text-muted transition-colors hover:bg-flame-soft hover:text-ink sm:right-4"
+            aria-label="Quitter ce sujet"
+            title="Quitter ce sujet"
+            className="absolute top-1.5 right-2 inline-flex size-9 items-center justify-center rounded-full text-muted transition-colors hover:bg-flame-soft hover:text-ink sm:top-2 sm:right-4"
           >
             <svg viewBox="0 0 24 24" className="size-4" fill="none" aria-hidden>
               <path
@@ -131,10 +131,10 @@ export function CompareWorkspace({
           </button>
         )}
         <p className="text-[10px] font-medium tracking-[0.18em] text-flame uppercase">
-          {themeActive ? "Thème" : "Rencontre"}
+          {themeActive ? "Sujet" : "Rencontre"}
         </p>
         <div className="mt-0.5 flex flex-wrap items-baseline justify-center gap-x-3 gap-y-0.5">
-          <h1 className="font-serif text-xl leading-tight text-ink sm:text-2xl">
+          <h1 className="max-w-[min(100%,26rem)] text-balance font-serif text-lg leading-tight text-ink sm:max-w-none sm:text-xl md:text-2xl">
             {themeActive
               ? themeTitle
               : "Torah, Bible et Coran, l’un à l’écoute de l’autre"}
@@ -153,7 +153,7 @@ export function CompareWorkspace({
       </header>
 
       <div
-        className="flex gap-2 overflow-x-auto px-3 pt-3 lg:hidden"
+        className="grid grid-cols-3 gap-1.5 px-3 pt-2.5 md:hidden"
         role="tablist"
         aria-label="Écritures"
       >
@@ -167,7 +167,7 @@ export function CompareWorkspace({
               role="tab"
               aria-selected={selected}
               onClick={() => setMobilePane(pane.id)}
-              className={`shrink-0 rounded-pill border px-3.5 py-1.5 text-sm ${
+              className={`min-h-11 rounded-control border px-2 py-2 text-sm ${
                 selected
                   ? "border-flame bg-flame text-white"
                   : "border-parchment bg-paper text-ink"
@@ -179,12 +179,12 @@ export function CompareWorkspace({
         })}
       </div>
 
-      <div className="relative grid min-h-0 flex-1 grid-cols-1 gap-3 p-3 lg:grid-cols-3">
+      <div className="relative grid min-h-0 flex-1 grid-cols-1 gap-2 p-2 sm:gap-3 sm:p-3 md:grid-cols-3">
         {themeActive && kinshipKind && (
-          <div className="pointer-events-none absolute top-6 right-1/3 left-[calc(16.6%+0.4rem)] z-10 hidden items-center lg:flex">
+          <div className="pointer-events-none absolute top-6 right-1/3 left-[calc(16.6%+0.4rem)] z-10 hidden items-center md:flex">
             <span className="h-px flex-1 bg-mark/50" />
             <span className="mx-2 rounded-pill bg-mark-soft px-2 py-0.5 text-[10px] tracking-wide text-mark uppercase">
-              {kinshipKind === "same" ? "Même texte" : "Echo"}
+              {kinshipKind === "same" ? "Même passage" : "Écho"}
             </span>
             <span className="h-px flex-1 bg-mark/50" />
           </div>
@@ -199,7 +199,7 @@ export function CompareWorkspace({
                 ? "ring-1 ring-mark/35"
                 : ""
             } ${
-              mobilePane === pane.id ? "flex flex-col" : "hidden lg:flex lg:flex-col"
+              mobilePane === pane.id ? "flex flex-col" : "hidden md:flex md:flex-col"
             }`}
           >
             {readers[pane.id]}

@@ -8,7 +8,7 @@ export function formatCitation(
   edition: string,
   text: string,
 ): string {
-  return `${source} — ${reference} (${edition})\n\n« ${text} »`;
+  return `${source}, ${reference} (${edition})\n\n« ${text} »`;
 }
 
 export function CopyCitationButton({ citation }: { citation: string }) {
@@ -28,7 +28,7 @@ export function CopyCitationButton({ citation }: { citation: string }) {
     <button
       type="button"
       onClick={handleCopy}
-      className="inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 text-xs tracking-wide text-muted transition-colors hover:bg-accent-soft hover:text-ink"
+      className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-line px-2.5 py-1.5 text-xs tracking-wide text-muted transition-colors hover:bg-accent-soft hover:text-ink sm:px-3"
     >
       {copied ? (
         <>
@@ -61,7 +61,8 @@ export function CopyCitationButton({ citation }: { citation: string }) {
               strokeWidth="1.5"
             />
           </svg>
-          Copier la citation
+          <span className="sm:hidden">Copier</span>
+          <span className="hidden sm:inline">Copier la citation</span>
         </>
       )}
     </button>

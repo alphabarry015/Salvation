@@ -37,6 +37,7 @@ export function BibleReader({
   highlightEnd,
   highlightLabel,
 }: BibleReaderProps) {
+  const [sheetOpen, setSheetOpen] = useState(false);
   const [tab, setTab] = useState<Tab>(
     compact && highlightStart != null ? "versets" : compact ? "chapitres" : "livres",
   );
@@ -47,7 +48,7 @@ export function BibleReader({
   const [verses, setVerses] = useState<ScriptureVerse[]>([]);
   const [reference, setReference] = useState("");
   const [edition, setEdition] = useState(
-    canon === "torah" ? "Pentateuque · traduction française" : "Louis Segond, 1910",
+    canon === "torah" ? "Pentateuque, traduction française" : "Louis Segond, 1910",
   );
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string>();
@@ -134,11 +135,13 @@ export function BibleReader({
     setChapter(number);
     setActiveVerse(null);
     setTab("versets");
+    setSheetOpen(false);
     void load(bookId, number);
   }
 
   function selectVerse(number: number) {
     setActiveVerse(number);
+    setSheetOpen(false);
   }
 
   const fieldClass =
@@ -150,15 +153,33 @@ export function BibleReader({
       : "flex-row"
     : "flex-col md:flex-row";
   const asideClass = compact
-    ? `flex min-h-0 shrink-0 flex-col ${
-        slim ? "w-[5.5rem] sm:w-28" : "w-[7.5rem] sm:w-40"
-      } ${navPosition === "right" ? "border-l" : "border-r"} border-line`
-    : "min-h-0 shrink-0 border-b border-line md:flex md:w-64 md:flex-col md:border-r md:border-b-0";
+    ? `${sheetOpen ? "flex" : "hidden"} absolute inset-y-0 z-30 w-64 max-w-[85vw] flex-col border-line bg-paper shadow-harvest lg:relative lg:flex lg:max-w-none lg:shadow-none ${
+        slim ? "lg:w-28" : "lg:w-40"
+      } ${navPosition === "right" ? "right-0 border-l" : "left-0 border-r"}`
+    : `${sheetOpen ? "flex" : "hidden"} absolute inset-y-0 left-0 z-30 w-72 max-w-[88vw] flex-col border-r border-line bg-paper shadow-harvest md:relative md:flex md:w-64 md:max-w-none md:shadow-none`;
 
   return (
-    <div className={`flex min-h-0 flex-1 ${rowClass}`}>
+    <div className={`relative flex min-h-0 flex-1 ${rowClass}`}>
+      {sheetOpen && (
+        <button
+          type="button"
+          className={`absolute inset-0 z-20 bg-ink/25 ${compact ? "lg:hidden" : "md:hidden"}`}
+          aria-label="Fermer le sommaire"
+          onClick={() => setSheetOpen(false)}
+        />
+      )}
       <aside className={asideClass}>
-        <div className="space-y-2 p-2 sm:p-3">
+        <div className="space-y-2 p-1.5 sm:p-3">
+          <div className={`flex items-center justify-between ${compact ? "lg:hidden" : "md:hidden"}`}>
+            <p className="text-xs font-medium text-ink">Sommaire</p>
+            <button
+              type="button"
+              onClick={() => setSheetOpen(false)}
+              className="rounded-pill px-2 py-1 text-[11px] text-muted"
+            >
+              Fermer
+            </button>
+          </div>
           <input
             type="search"
             value={search}
@@ -304,6 +325,8 @@ export function BibleReader({
         }
         highlightLabel={highlightLabel}
         scrollTo={activeVerse}
+        onOpenNav={() => setSheetOpen(true)}
+        navUntil={compact ? "lg" : "md"}
       />
     </div>
   );
