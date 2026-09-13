@@ -1,0 +1,18 @@
+{
+  "name": "Salvation",
+  "short_name": "Salvation",
+  "description": "Lire la Torah, la Bible et le Coran l’un à l’écoute de l’autre, avec respect.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3efe6",
+  "theme_color": "#4f5d3a",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "creation",
+    "theme": "La Création",
+    "category": "Dogme",
+    "torah": {
+      "reference": "Bereshit (Genèse) 1, 1-5",
+      "version": "Pentateuque · traduction française",
+      "text": "Au commencement, Dieu créa les cieux et la terre. La terre était informe et vide : il y avait des ténèbres à la surface de l'abîme, et l'esprit de Dieu se mouvait au-dessus des eaux. Dieu dit : Que la lumière soit ! Et la lumière fut. Dieu vit que la lumière était bonne ; et Dieu sépara la lumière d'avec les ténèbres. Dieu appela la lumière jour, et il appela les ténèbres nuit. Ainsi, il y eut un soir, et il y eut un matin : ce fut le premier jour.",
+      "query": { "book": "GEN", "chapter": 1, "verseStart": 1, "verseEnd": 5 }
+    },
+    "bible": {
+      "reference": "Genèse 1, 1-5",
+      "version": "Louis Segond, 1910",
+      "text": "Au commencement, Dieu créa les cieux et la terre. La terre était informe et vide : il y avait des ténèbres à la surface de l'abîme, et l'esprit de Dieu se mouvait au-dessus des eaux. Dieu dit : Que la lumière soit ! Et la lumière fut. Dieu vit que la lumière était bonne ; et Dieu sépara la lumière d'avec les ténèbres. Dieu appela la lumière jour, et il appela les ténèbres nuit. Ainsi, il y eut un soir, et il y eut un matin : ce fut le premier jour.",
+      "query": { "book": "GEN", "chapter": 1, "verseStart": 1, "verseEnd": 5 }
+    },
+    "coran": {
+      "reference": "Sourate 7, Al-A'rāf, 54",
+      "translator": "Hamidullah",
+      "text": "Votre Seigneur, c'est Allah, qui a créé les cieux et la terre en six jours, puis S'est établi sur le Trône. Il couvre le jour de la nuit qui le poursuit rapidement. Il a créé le soleil, la lune et les étoiles, soumis à Son commandement. La création et le commandement n'appartiennent qu'à Lui. Béni soit Allah, Seigneur de l'univers.",
+      "query": { "surah": 7, "ayahStart": 54, "ayahEnd": 54 }
+    }
+  },
+  {
+    "id": "adam",
+    "theme": "Le récit d'Adam",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Bereshit (Genèse) 2, 7 et 15-17",
+      "version": "Pentateuque · traduction française",
+      "text": "L'Éternel Dieu forma l'homme de la poussière de la terre, il souffla dans ses narines un souffle de vie et l'homme devint un être vivant. L'Éternel Dieu prit l'homme et le plaça dans le jardin d'Éden pour le cultiver et pour le garder. L'Éternel Dieu donna cet ordre à l'homme : Tu pourras manger de tous les arbres du jardin ; mais tu ne mangeras pas de l'arbre de la connaissance du bien et du mal, car le jour où tu en mangeras, tu mourras.",
+      "query": { "book": "GEN", "chapter": 2, "verseStart": 7, "verseEnd": 17 }
+    },
+    "bible": {
+      "reference": "Genèse 2, 7 et 15-17",
+      "version": "Louis Segond, 1910",
+      "text": "L'Éternel Dieu forma l'homme de la poussière de la terre, il souffla dans ses narines un souffle de vie et l'homme devint un être vivant. L'Éternel Dieu prit l'homme et le plaça dans le jardin d'Éden pour le cultiver et pour le garder. L'Éternel Dieu donna cet ordre à l'homme : Tu pourras manger de tous les arbres du jardin ; mais tu ne mangeras pas de l'arbre de la connaissance du bien et du mal, car le jour où tu en mangeras, tu mourras.",
+      "query": { "book": "GEN", "chapter": 2, "verseStart": 7, "verseEnd": 17 }
+    },
+    "coran": {
+      "reference": "Sourate 2, Al-Baqara, 35-36",
+      "translator": "Hamidullah",
+      "text": "Et Nous dîmes : « Ô Adam, habite le Paradis toi et ton épouse, et nourrissez-vous-en de partout à votre guise ; mais n'approchez pas de l'arbre que voici, sinon vous seriez du nombre des injustes. » Puis le Diable les fit glisser de là et les fit sortir de l'état où ils étaient. Et Nous dîmes : « Descendez d'ici, ennemis les uns des autres. Il y aura pour vous sur terre séjour et jouissance, pour un temps. »",
+      "query": { "surah": 2, "ayahStart": 35, "ayahEnd": 36 }
+    }
+  },
+  {
+    "id": "noe-nuh",
+    "theme": "Noé / Nuh",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Bereshit (Genèse) 6, 13-14 et 17-18",
+      "version": "Pentateuque · traduction française",
+      "text": "Alors Dieu dit à Noé : La fin de toute chair est arrêtée par-devers moi ; car ils ont rempli la terre de violence ; voici, je vais les détruire avec la terre. Fais-toi une arche de bois de gopher ; tu disposeras cette arche en cellules, et tu l'enduiras de poix en dedans et en dehors. J'amène le déluge d'eaux sur la terre, pour détruire toute chair ayant souffle de vie sous le ciel ; tout ce qui est sur la terre périra. Mais j'établis mon alliance avec toi ; tu entreras dans l'arche, toi et tes fils, ta femme et les femmes de tes fils avec toi.",
+      "query": { "book": "GEN", "chapter": 6, "verseStart": 13, "verseEnd": 18 }
+    },
+    "bible": {
+      "reference": "Genèse 6, 13-14 et 17-18",
+      "version": "Louis Segond, 1910",
+      "text": "Alors Dieu dit à Noé : La fin de toute chair est arrêtée par-devers moi ; car ils ont rempli la terre de violence ; voici, je vais les détruire avec la terre. Fais-toi une arche de bois de gopher ; tu disposeras cette arche en cellules, et tu l'enduiras de poix en dedans et en dehors. J'amène le déluge d'eaux sur la terre, pour détruire toute chair ayant souffle de vie sous le ciel ; tout ce qui est sur la terre périra. Mais j'établis mon alliance avec toi ; tu entreras dans l'arche, toi et tes fils, ta femme et les femmes de tes fils avec toi.",
+      "query": { "book": "GEN", "chapter": 6, "verseStart": 13, "verseEnd": 18 }
+    },
+    "coran": {
+      "reference": "Sourate 11, Hūd, 25-26 et 40",
+      "translator": "Hamidullah",
+      "text": "Nous avons envoyé Noé vers son peuple : « Je suis pour vous un avertisseur explicite. N'adorez qu'Allah. Je crains pour vous le châtiment d'un jour douloureux. » Puis, lorsque Notre commandement vint et que le four se mit à bouillonner, Nous dîmes : « Charge dans l'arche une paire de chaque espèce, ainsi que ta famille — sauf ceux contre qui le décret a déjà été rendu — et ceux qui ont cru. » Mais ceux qui avaient cru avec lui étaient peu nombreux.",
+      "query": { "surah": 11, "ayahStart": 25, "ayahEnd": 40 }
+    }
+  },
+  {
+    "id": "abraham-ibrahim",
+    "theme": "Abraham / Ibrahim",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Bereshit (Genèse) 12, 1-3",
+      "version": "Pentateuque · traduction française",
+      "text": "L'Éternel dit à Abram : Va-t-en de ton pays, de ta patrie, et de la maison de ton père, dans le pays que je te montrerai. Je ferai de toi une grande nation, et je te bénirai ; je rendrai ton nom grand, et tu seras une source de bénédiction. Je bénirai ceux qui te béniront, et je maudirai ceux qui te maudiront ; et toutes les familles de la terre seront bénies en toi.",
+      "query": { "book": "GEN", "chapter": 12, "verseStart": 1, "verseEnd": 3 }
+    },
+    "bible": {
+      "reference": "Genèse 12, 1-3",
+      "version": "Louis Segond, 1910",
+      "text": "L'Éternel dit à Abram : Va-t-en de ton pays, de ta patrie, et de la maison de ton père, dans le pays que je te montrerai. Je ferai de toi une grande nation, et je te bénirai ; je rendrai ton nom grand, et tu seras une source de bénédiction. Je bénirai ceux qui te béniront, et je maudirai ceux qui te maudiront ; et toutes les familles de la terre seront bénies en toi.",
+      "query": { "book": "GEN", "chapter": 12, "verseStart": 1, "verseEnd": 3 }
+    },
+    "coran": {
+      "reference": "Sourate 2, Al-Baqara, 124",
+      "translator": "Hamidullah",
+      "text": "Lorsque son Seigneur eut éprouvé Abraham par certains commandements, et qu'il les eut accomplis, le Seigneur lui dit : « Je vais faire de toi un exemple à suivre pour les gens. » — « Et parmi ma descendance ? » demanda-t-il. — « Mon engagement, dit Allah, ne s'applique pas aux injustes. »",
+      "query": { "surah": 2, "ayahStart": 124, "ayahEnd": 124 }
+    }
+  },
+  {
+    "id": "jesus-issa",
+    "theme": "Jésus / Issa",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Devarim (Deutéronome) 18, 15-18",
+      "version": "Pentateuque · traduction française",
+      "text": "L'Éternel, ton Dieu, te suscitera du milieu de toi, d'entre tes frères, un prophète comme moi : vous l'écouterez. C'est ce que tu as demandé à l'Éternel, ton Dieu, à Horeb, le jour de l'assemblée. L'Éternel me dit : Ils ont bien parlé. Je leur susciterai du milieu de leurs frères un prophète comme toi, je mettrai mes paroles dans sa bouche, et il leur dira tout ce que je lui commanderai.",
+      "query": { "book": "DEU", "chapter": 18, "verseStart": 15, "verseEnd": 18 }
+    },
+    "bible": {
+      "reference": "Luc 1, 30-35",
+      "version": "Louis Segond, 1910",
+      "text": "L'ange lui dit : Ne crains point, Marie ; car tu as trouvé grâce devant Dieu. Et voici, tu deviendras enceinte, et tu enfanteras un fils, et tu lui donneras le nom de Jésus. Il sera grand et sera appelé Fils du Très-Haut, et le Seigneur Dieu lui donnera le trône de David, son père. Il régnera sur la maison de Jacob éternellement, et son règne n'aura point de fin. Marie dit à l'ange : Comment cela se fera-t-il, puisque je ne connais point d'homme ? L'ange lui répondit : Le Saint-Esprit viendra sur toi, et la puissance du Très-Haut te couvrira de son ombre. C'est pourquoi le saint enfant qui naîtra de toi sera appelé Fils de Dieu.",
+      "query": { "book": "LUK", "chapter": 1, "verseStart": 30, "verseEnd": 35 }
+    },
+    "coran": {
+      "reference": "Sourate 19, Maryam, 16-21",
+      "translator": "Hamidullah",
+      "text": "Mentionne, dans le Livre, Marie, quand elle se retira de sa famille en un lieu vers l'Orient. Elle mit entre elle et eux un voile. Nous lui envoyâmes Notre Esprit, qui se présenta à elle sous la forme d'un homme parfait. Elle dit : « Je me réfugie contre toi auprès du Tout Miséricordieux. Si tu es pieux ! » Il dit : « Je suis en fait un Messager de ton Seigneur pour te faire don d'un fils pur. » Elle dit : « Comment aurais-je un fils, alors qu'aucun homme ne m'a touchée, et que je ne suis pas une prostituée ? » Il dit : « Ainsi sera-t-il ! Ton Seigneur a dit : Cela M'est facile. Et Nous ferons de lui un signe pour les gens, et une miséricorde de Notre part. C'est une affaire déjà décidée. »",
+      "query": { "surah": 19, "ayahStart": 16, "ayahEnd": 21 }
+    }
+  },
+  {
+    "id": "jugement-dernier",
+    "theme": "Le Jugement dernier",
+    "category": "Dogme",
+    "torah": {
+      "reference": "Devarim (Deutéronome) 30, 15-19",
+      "version": "Pentateuque · traduction française",
+      "text": "Vois, je mets aujourd'hui devant toi la vie et le bien, la mort et le mal. J'en prends aujourd'hui à témoin contre toi le ciel et la terre : j'ai mis devant toi la vie et la mort, la bénédiction et la malédiction. Choisis la vie, afin que tu vives, toi et ta postérité, pour aimer l'Éternel ton Dieu, pour obéir à sa voix et pour t'attacher à lui.",
+      "query": { "book": "DEU", "chapter": 30, "verseStart": 15, "verseEnd": 19 }
+    },
+    "bible": {
+      "reference": "Matthieu 25, 31-32",
+      "version": "Louis Segond, 1910",
+      "text": "Lorsque le Fils de l'homme viendra dans sa gloire, avec tous les anges, il s'assiéra sur le trône de sa gloire. Toutes les nations seront assemblées devant lui. Il séparera les uns d'avec les autres, comme le berger sépare les brebis d'avec les boucs.",
+      "query": { "book": "MAT", "chapter": 25, "verseStart": 31, "verseEnd": 32 }
+    },
+    "coran": {
+      "reference": "Sourate 99, Az-Zalzala, 6-8",
+      "translator": "Hamidullah",
+      "text": "Ce jour-là, les gens sortiront séparément pour que leur soient montrées leurs œuvres. Quiconque fait un bien fût-ce du poids d'un atome le verra, et quiconque fait un mal fût-ce du poids d'un atome le verra.",
+      "query": { "surah": 99, "ayahStart": 6, "ayahEnd": 8 }
+    }
+  },
+  {
+    "id": "aumone",
+    "theme": "L'aumône",
+    "category": "Morale",
+    "torah": {
+      "reference": "Devarim (Deutéronome) 15, 7-8",
+      "version": "Pentateuque · traduction française",
+      "text": "S'il y a chez toi quelque indigent d'entre tes frères, dans l'une de tes portes, au pays que l'Éternel ton Dieu te donne, tu n'endurciras point ton cœur et tu ne fermeras point ta main devant ton frère indigent. Mais tu lui ouvriras ta main, et tu lui prêteras ce qu'il faut pour subvenir à ses besoins.",
+      "query": { "book": "DEU", "chapter": 15, "verseStart": 7, "verseEnd": 8 }
+    },
+    "bible": {
+      "reference": "Matthieu 6, 2-4",
+      "version": "Louis Segond, 1910",
+      "text": "Lors donc que tu fais l'aumône, ne sonne pas de la trompette devant toi, comme font les hypocrites dans les synagogues et dans les rues, afin d'être glorifiés par les hommes. Je vous le dis en vérité, ils reçoivent leur récompense. Mais quand tu fais l'aumône, que ta main gauche ne sache pas ce que fait ta droite, afin que ton aumône se fasse en secret ; et ton Père, qui voit dans le secret, te le rendra.",
+      "query": { "book": "MAT", "chapter": 6, "verseStart": 2, "verseEnd": 4 }
+    },
+    "coran": {
+      "reference": "Sourate 2, Al-Baqara, 271",
+      "translator": "Hamidullah",
+      "text": "Si vous donnez ouvertement vos aumônes, c'est bien ; mais si vous les cachez et les donnez aux pauvres, ce sera meilleur pour vous, et cela effacera une partie de vos méfaits. Allah est Informé de ce que vous faites.",
+      "query": { "surah": 2, "ayahStart": 271, "ayahEnd": 271 }
+    }
+  },
+  {
+    "id": "mohammed",
+    "theme": "Mohammed",
+    "category": "Prophètes",
+    "kinship": {
+      "torahBible": "same",
+      "note": "Torah et Bible partagent ici le même verset du Deutéronome."
+    },
+    "torah": {
+      "reference": "Devarim (Deutéronome) 18, 18",
+      "version": "Pentateuque · traduction française",
+      "text": "Je leur susciterai du milieu de leurs frères un prophète comme toi, je mettrai mes paroles dans sa bouche, et il leur dira tout ce que je lui commanderai.",
+      "query": { "book": "DEU", "chapter": 18, "verseStart": 18, "verseEnd": 18 }
+    },
+    "bible": {
+      "reference": "Deutéronome 18, 18",
+      "version": "Louis Segond, 1910",
+      "text": "Je leur susciterai du milieu de leurs frères un prophète comme toi, je mettrai mes paroles dans sa bouche, et il leur dira tout ce que je lui commanderai.",
+      "query": { "book": "DEU", "chapter": 18, "verseStart": 18, "verseEnd": 18 }
+    },
+    "coran": {
+      "reference": "Sourate 7, Al-A'rāf, 157",
+      "translator": "Hamidullah",
+      "text": "Ceux qui suivent le Messager, le Prophète illettré qu'ils trouvent mentionné chez eux dans la Torah et l'Évangile. Il leur enjoint le convenable, leur interdit le blâmable, leur rend licites les bonnes choses, leur interdit les mauvaises, et ôte le fardeau et les jougs qui étaient sur eux. Ceux qui croiront en lui, le soutiendront, lui porteront secours et suivront la lumière descendue avec lui, ceux-là seront les gagnants.",
+      "query": { "surah": 7, "ayahStart": 157, "ayahEnd": 157 }
+    }
+  },
+  {
+    "id": "moise-musa",
+    "theme": "Moïse / Musa",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Shemot (Exode) 3, 13-14",
+      "version": "Pentateuque · traduction française",
+      "text": "Moïse dit à Dieu : Voici, j'irai vers les enfants d'Israël, et je leur dirai : Le Dieu de vos pères m'envoie vers vous. S'ils me demandent quel est son nom, que leur répondrai-je ? Dieu dit à Moïse : Je suis celui qui suis. Et il ajouta : C'est ainsi que tu répondras aux enfants d'Israël : Celui qui s'appelle Je suis m'a envoyé vers vous.",
+      "query": { "book": "EXO", "chapter": 3, "verseStart": 13, "verseEnd": 14 }
+    },
+    "bible": {
+      "reference": "Exode 3, 13-14",
+      "version": "Louis Segond, 1910",
+      "text": "Moïse dit à Dieu : Voici, j'irai vers les enfants d'Israël, et je leur dirai : Le Dieu de vos pères m'envoie vers vous. S'ils me demandent quel est son nom, que leur répondrai-je ? Dieu dit à Moïse : Je suis celui qui suis. Et il ajouta : C'est ainsi que tu répondras aux enfants d'Israël : Celui qui s'appelle Je suis m'a envoyé vers vous.",
+      "query": { "book": "EXO", "chapter": 3, "verseStart": 13, "verseEnd": 14 }
+    },
+    "coran": {
+      "reference": "Sourate 20, Ṭā-Hā, 11-14",
+      "translator": "Hamidullah",
+      "text": "Puis, quand il y arriva, il fut interpellé : « Ô Moïse ! Je suis ton Seigneur. Enlève tes sandales : tu es dans la vallée sacrée Tuwa. Je t'ai choisi. Écoute donc ce qui va être révélé. Je suis Allah. Nul dieu à part Moi. Adore-Moi et accomplis la prière pour te souvenir de Moi. »",
+      "query": { "surah": 20, "ayahStart": 11, "ayahEnd": 14 }
+    }
+  },
+  {
+    "id": "joseph-yusuf",
+    "theme": "Joseph / Yusuf",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Bereshit (Genèse) 37, 5-8",
+      "version": "Pentateuque · traduction française",
+      "text": "Joseph eut un songe, et il le raconta à ses frères, qui le haïrent encore davantage. Il leur dit : Écoutez donc ce songe que j'ai eu ! Nous étions à lier des gerbes au milieu des champs ; et voici, ma gerbe se leva et se tint debout, et vos gerbes l'entourèrent et se prosternèrent devant elle. Ses frères lui dirent : Est-ce que tu régneras sur nous ? Est-ce que tu nous gouverneras ?",
+      "query": { "book": "GEN", "chapter": 37, "verseStart": 5, "verseEnd": 8 }
+    },
+    "bible": {
+      "reference": "Genèse 37, 5-8",
+      "version": "Louis Segond, 1910",
+      "text": "Joseph eut un songe, et il le raconta à ses frères, qui le haïrent encore davantage. Il leur dit : Écoutez donc ce songe que j'ai eu ! Nous étions à lier des gerbes au milieu des champs ; et voici, ma gerbe se leva et se tint debout, et vos gerbes l'entourèrent et se prosternèrent devant elle. Ses frères lui dirent : Est-ce que tu régneras sur nous ? Est-ce que tu nous gouverneras ?",
+      "query": { "book": "GEN", "chapter": 37, "verseStart": 5, "verseEnd": 8 }
+    },
+    "coran": {
+      "reference": "Sourate 12, Yusuf, 4-6",
+      "translator": "Hamidullah",
+      "text": "Quand Joseph dit à son père : « Ô mon père, j'ai vu en songe onze étoiles, et le soleil et la lune ; je les ai vus se prosterner devant moi. » Il dit : « Ô mon fils, ne raconte pas ta vision à tes frères, sinon ils monteraient un complot contre toi ; le Diable est pour l'homme un ennemi déclaré. Ainsi ton Seigneur te choisira et t'enseignera l'interprétation des événements. »",
+      "query": { "surah": 12, "ayahStart": 4, "ayahEnd": 6 }
+    }
+  },
+  {
+    "id": "unicite",
+    "theme": "L'unicité de Dieu",
+    "category": "Dogme",
+    "kinship": {
+      "torahBible": "echo",
+      "note": "Dans l'Évangile, Jésus reprend le Shema de la Torah : « Écoute, Israël »."
+    },
+    "torah": {
+      "reference": "Devarim (Deutéronome) 6, 4-5",
+      "version": "Pentateuque · traduction française",
+      "text": "Écoute, Israël ! L'Éternel, notre Dieu, est le seul Éternel. Tu aimeras l'Éternel, ton Dieu, de tout ton cœur, de toute ton âme et de toute ta force.",
+      "query": { "book": "DEU", "chapter": 6, "verseStart": 4, "verseEnd": 5 }
+    },
+    "bible": {
+      "reference": "Marc 12, 29-30",
+      "version": "Louis Segond, 1910",
+      "text": "Jésus répondit : Voici le premier : Écoute, Israël, le Seigneur, notre Dieu, est l'unique Seigneur ; et : Tu aimeras le Seigneur, ton Dieu, de tout ton cœur, de toute ton âme, de toute ta pensée, et de toute ta force.",
+      "query": { "book": "MRK", "chapter": 12, "verseStart": 29, "verseEnd": 30 }
+    },
+    "coran": {
+      "reference": "Sourate 112, Al-Ikhlāṣ, 1-4",
+      "translator": "Hamidullah",
+      "text": "Dis : « Il est Allah, Unique. Allah, le Seul à être imploré pour ce que nous désirons. Il n'a jamais engendré, n'a pas été engendré non plus. Et nul n'est égal à Lui. »",
+      "query": { "surah": 112, "ayahStart": 1, "ayahEnd": 4 }
+    }
+  },
+  {
+    "id": "priere",
+    "theme": "La prière",
+    "category": "Morale",
+    "torah": {
+      "reference": "Devarim (Deutéronome) 6, 6-7",
+      "version": "Pentateuque · traduction française",
+      "text": "Et ces commandements, que je te donne aujourd'hui, seront dans ton cœur. Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison, quand tu iras en voyage, quand tu te coucheras et quand tu te lèveras.",
+      "query": { "book": "DEU", "chapter": 6, "verseStart": 6, "verseEnd": 7 }
+    },
+    "bible": {
+      "reference": "Matthieu 6, 9-13",
+      "version": "Louis Segond, 1910",
+      "text": "Voici donc comment vous devez prier : Notre Père qui es aux cieux ! Que ton nom soit sanctifié ; que ton règne vienne ; que ta volonté soit faite sur la terre comme au ciel. Donne-nous aujourd'hui notre pain quotidien ; pardonne-nous nos offenses, comme nous aussi nous pardonnons à ceux qui nous ont offensés ; ne nous induis pas en tentation, mais délivre-nous du malin.",
+      "query": { "book": "MAT", "chapter": 6, "verseStart": 9, "verseEnd": 13 }
+    },
+    "coran": {
+      "reference": "Sourate 17, Al-Isrā', 78",
+      "translator": "Hamidullah",
+      "text": "Accomplis la Salat au déclin du soleil jusqu'à la tombée de la nuit, et fais aussi la Lecture à l'aube, car la Lecture à l'aube a des témoins.",
+      "query": { "surah": 17, "ayahStart": 78, "ayahEnd": 78 }
+    }
+  },
+  {
+    "id": "jeune",
+    "theme": "Le jeûne",
+    "category": "Morale",
+    "torah": {
+      "reference": "Vayikra (Lévitique) 16, 29",
+      "version": "Pentateuque · traduction française",
+      "text": "C'est ici pour vous une loi perpétuelle : au septième mois, le dixième jour du mois, vous humilierez vos âmes, vous ne ferez aucun ouvrage, ni l'indigène, ni l'étranger qui séjourne au milieu de vous.",
+      "query": { "book": "LEV", "chapter": 16, "verseStart": 29, "verseEnd": 29 }
+    },
+    "bible": {
+      "reference": "Matthieu 6, 16-18",
+      "version": "Louis Segond, 1910",
+      "text": "Lorsque vous jeûnez, ne prenez pas un air triste, comme les hypocrites, qui se rendent le visage tout défait, pour montrer aux hommes qu'ils jeûnent. Je vous le dis en vérité, ils reçoivent leur récompense. Mais toi, quand tu jeûnes, parfume ta tête et lave ton visage, afin de ne pas montrer aux hommes que tu jeûnes, mais à ton Père qui est là dans le secret ; et ton Père, qui voit dans le secret, te le rendra.",
+      "query": { "book": "MAT", "chapter": 6, "verseStart": 16, "verseEnd": 18 }
+    },
+    "coran": {
+      "reference": "Sourate 2, Al-Baqara, 183",
+      "translator": "Hamidullah",
+      "text": "Ô les croyants ! On vous a prescrit le jeûne comme on l'a prescrit à ceux d'avant vous, ainsi atteindrez-vous la piété.",
+      "query": { "surah": 2, "ayahStart": 183, "ayahEnd": 183 }
+    }
+  },
+  {
+    "id": "pardon",
+    "theme": "Le pardon",
+    "category": "Morale",
+    "torah": {
+      "reference": "Shemot (Exode) 34, 6-7",
+      "version": "Pentateuque · traduction française",
+      "text": "Et l'Éternel passa devant lui, et s'écria : L'Éternel, l'Éternel, Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité, qui conserve son amour jusqu'à mille générations, qui pardonne l'iniquité, la rébellion et le péché.",
+      "query": { "book": "EXO", "chapter": 34, "verseStart": 6, "verseEnd": 7 }
+    },
+    "bible": {
+      "reference": "Matthieu 6, 14-15",
+      "version": "Louis Segond, 1910",
+      "text": "Si vous pardonnez aux hommes leurs offenses, votre Père céleste vous pardonnera aussi ; mais si vous ne pardonnez pas aux hommes, votre Père ne vous pardonnera pas non plus vos offenses.",
+      "query": { "book": "MAT", "chapter": 6, "verseStart": 14, "verseEnd": 15 }
+    },
+    "coran": {
+      "reference": "Sourate 39, Az-Zumar, 53",
+      "translator": "Hamidullah",
+      "text": "Dis : « Ô Mes serviteurs qui avez commis des excès à votre propre détriment, ne désespérez pas de la miséricorde d'Allah. Car Allah pardonne tous les péchés. Oui, c'est Lui le Pardonneur, le Très Miséricordieux. »",
+      "query": { "surah": 39, "ayahStart": 53, "ayahEnd": 53 }
+    }
+  },
+  {
+    "id": "etranger",
+    "theme": "L'étranger",
+    "category": "Morale",
+    "torah": {
+      "reference": "Vayikra (Lévitique) 19, 33-34",
+      "version": "Pentateuque · traduction française",
+      "text": "Si un étranger vient séjourner avec vous dans votre pays, vous ne l'opprimerez point. Vous traiterez l'étranger en séjour parmi vous comme un indigène du milieu de vous ; vous l'aimerez comme vous-mêmes, car vous avez été étrangers dans le pays d'Égypte. Je suis l'Éternel, votre Dieu.",
+      "query": { "book": "LEV", "chapter": 19, "verseStart": 33, "verseEnd": 34 }
+    },
+    "bible": {
+      "reference": "Lévitique 19, 33-34",
+      "version": "Louis Segond, 1910",
+      "text": "Si un étranger vient séjourner avec vous dans votre pays, vous ne l'opprimerez point. Vous traiterez l'étranger en séjour parmi vous comme un indigène du milieu de vous ; vous l'aimerez comme vous-mêmes, car vous avez été étrangers dans le pays d'Égypte. Je suis l'Éternel, votre Dieu.",
+      "query": { "book": "LEV", "chapter": 19, "verseStart": 33, "verseEnd": 34 }
+    },
+    "coran": {
+      "reference": "Sourate 4, An-Nisā', 36",
+      "translator": "Hamidullah",
+      "text": "Adorez Allah et ne Lui donnez aucun associé. Agissez avec bonté envers vos père et mère, les proches, les orphelins, les pauvres, le proche voisin, le voisin lointain, le collègue, le voyageur, et ceux que vous avez en votre possession. Allah n'aime pas, en vérité, le présomptueux, l'arrogant.",
+      "query": { "surah": 4, "ayahStart": 36, "ayahEnd": 36 }
+    }
+  },
+  {
+    "id": "isaac-ismail",
+    "theme": "Isaac et Ismaël",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Bereshit (Genèse) 21, 17-18",
+      "version": "Pentateuque · traduction française",
+      "text": "Dieu entendit la voix de l'enfant ; et l'ange de Dieu appela du ciel Agar, et lui dit : Qu'as-tu, Agar ? Ne crains point, car Dieu a entendu la voix de l'enfant dans le lieu où il est. Lève-toi, prends l'enfant, saisis-le de ta main ; car je ferai de lui une grande nation.",
+      "query": { "book": "GEN", "chapter": 21, "verseStart": 17, "verseEnd": 18 }
+    },
+    "bible": {
+      "reference": "Genèse 21, 17-18",
+      "version": "Louis Segond, 1910",
+      "text": "Dieu entendit la voix de l'enfant ; et l'ange de Dieu appela du ciel Agar, et lui dit : Qu'as-tu, Agar ? Ne crains point, car Dieu a entendu la voix de l'enfant dans le lieu où il est. Lève-toi, prends l'enfant, saisis-le de ta main ; car je ferai de lui une grande nation.",
+      "query": { "book": "GEN", "chapter": 21, "verseStart": 17, "verseEnd": 18 }
+    },
+    "coran": {
+      "reference": "Sourate 37, Aṣ-Ṣāffāt, 102-105",
+      "translator": "Hamidullah",
+      "text": "Puis, quand celui-ci eut atteint l'âge de l'aller et venir avec lui, il dit : « Ô mon fils, je me vois en songe en train de t'immoler. Vois donc ce que tu en penses. » Il dit : « Ô mon père, fais ce qui t'est commandé : tu me trouveras, s'il plaît à Allah, du nombre des endurants. » Puis, quand tous deux se furent soumis et qu'il l'eut jeté sur le front, voilà que Nous l'appelâmes : « Ô Abraham ! Tu as confirmé la vision. C'est ainsi que Nous récompensons les bienfaisants. »",
+      "query": { "surah": 37, "ayahStart": 102, "ayahEnd": 105 }
+    }
+  },
+  {
+    "id": "naissance-annoncee",
+    "theme": "Une naissance annoncée",
+    "category": "Prophètes",
+    "torah": {
+      "reference": "Bereshit (Genèse) 18, 10-14",
+      "version": "Pentateuque · traduction française",
+      "text": "L'Éternel dit : Je reviendrai vers toi à cette même époque ; et voici, Sara, ta femme, aura un fils. Sara écoutait à l'entrée de la tente, qui était derrière lui. Abraham et Sara étaient vieux, avancés en âge. Sara rit en elle-même, en disant : Maintenant que je suis vieille, aurais-je encore des désirs ? Y a-t-il rien qui soit étonnant de la part de l'Éternel ?",
+      "query": { "book": "GEN", "chapter": 18, "verseStart": 10, "verseEnd": 14 }
+    },
+    "bible": {
+      "reference": "Luc 1, 30-31",
+      "version": "Louis Segond, 1910",
+      "text": "L'ange lui dit : Ne crains point, Marie ; car tu as trouvé grâce devant Dieu. Et voici, tu deviendras enceinte, et tu enfanteras un fils, et tu lui donneras le nom de Jésus.",
+      "query": { "book": "LUK", "chapter": 1, "verseStart": 30, "verseEnd": 31 }
+    },
+    "coran": {
+      "reference": "Sourate 3, Āl ʿImrān, 45",
+      "translator": "Hamidullah",
+      "text": "Les anges dirent : « Ô Marie, voilà qu'Allah t'annonce une parole de Sa part : son nom sera le Messie, Jésus, fils de Marie, illustre ici-bas comme dans l'au-delà, et l'un des rapprochés d'Allah. »",
+      "query": { "surah": 3, "ayahStart": 45, "ayahEnd": 45 }
+    }
+  }
+]
